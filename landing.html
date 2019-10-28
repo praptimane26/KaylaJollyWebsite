@@ -1,0 +1,137 @@
+<html>
+    <title>Kayla Jolly Hairstylist</title>
+<head>
+    
+<link href="landing.css" rel="stylesheet" type="text/css">
+<style>
+.myslides {display: none;}
+</style>
+</head>
+
+<body>
+
+
+<ul class="nav">
+<!---logo-->
+    <div class="LOGO">
+    <a href="landing.html">KAYLA JOLLY HAIRSTYLIST</a>
+    </div>
+    <!---end logo-->
+
+<!---navigation bar-->
+<li><a href="landing.html">HOME</a></li> 
+<li><a href="aboutkayla.html">ABOUT KAYLA</a></li>
+<li><a href="a">SERVICES</a></li>
+<li><a href="gallery.html">GALLERY</a></li>
+<li><a href="contactus.html">CONTACT US</a></li>
+</ul>
+<!---end navigation bar-->
+
+<!---banner-->
+<div class="banner-container">
+    <div class="banner-container myslides">
+        <img src="../images/banner image.jpg"
+        style="width:100%"> 
+    </div>
+
+    <div class="banner-container myslides">
+        <img src="../images/banner image2.jpg" 
+        style="width: 100%">
+    </div>
+
+    <div class="banner-container myslides">
+        <img src="../images/banner image3.jpg"
+        style="width: 100%">
+    </div>
+
+    <div class="button-left">
+            <button class="banner-button banner-display-left"
+            onclick="plusDivs(-1)">&#10094;
+        </button>
+    </div>
+    <div class="button-right">
+        <button class="banner-button banner-display-right"
+        onclick="plusDivs(-1)">&#10095;</button>
+</div>
+
+
+</div>
+<!---banner slider-->
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+    showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+    var i;
+    var x = 
+    document.getElementsByClassName("myslides");
+    if (n > x.length) {slideIndex=1}
+    if (n < 1) {slideIndex = x.length}
+    for (i=0; i < x.length; i++) {
+        x[i].style.display = "none";
+    }
+    x[slideIndex-1].style.display = "block";
+}
+</script>
+<!---banner ends-->
+
+<div class="heading">Services</div>
+<div align="center" class="services">
+<div class="service1">
+    <h1>Balayage/Ombre Color</h1>
+    <a href="a"><img class="image" src="../images/service1.jpg"></a>
+    <p>Lorem Ipsum ofofhwdofhdogieoi
+    goievdlvknlkdjlksdjflksdjfsldkcjsdlfjas</p>
+    </div>
+    </div>
+
+<div class="service1">
+    <h1>Full Head Foils</h1>
+    <a href="a"><img class="image" src="../images/service2.jpg"></a>
+    <p>Lorem Ipsum ofofhwdofhdogieoi
+        goievdlvknlkdjlksdjflksdjfsldkcjsdlfjas</p>
+    </div>
+
+    
+    <div class="service1">
+        <h1>Half Head Foils</h1>
+        <a href="a"><img class="image" src="../images/service5.jpg"></a>
+        <p>Lorem Ipsum ofofhwdofhdogieoi
+            goievdlvknlkdjlksdjflksdjfsldkcjsdlfjas</p>
+    </div>
+
+    <div class="service1">
+            <h1>Creative Color</h1>
+            <a href="a"><img class="image" src="../images/service4.jpg"></a>
+            <p>Lorem Ipsum ofofhwdofhdogieoi
+            goievdlvknlkdjlksdjflksdjfsldkcjsdlfjas</p>
+    </div>
+    
+<!---footer-->
+<footer id="footer">
+<!---footer social icons-->
+<div class="footer-social-icons">
+    <ul>
+        <li><a href="#" target="blank"><i class="fa fa-facebook"></i></a></li>
+        <li><a href="#" target="blank"><i class="fa fa-instagram"></i></a></li>
+    </ul>
+</div>
+<!---footer menu-->
+<div class="footer-menu-one">
+    <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About Kayla</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Gallery</a></li>
+        <li><a href="#">Contact Us</a></li>
+    </ul>
+</div>
+</footer>
+
+</body>
+
+</html>
