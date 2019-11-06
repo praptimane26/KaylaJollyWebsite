@@ -140,6 +140,12 @@ text-align: center;
 	color: turquoise;
 }
 
+
+
+
+
+
+
 #footer-container{
 	min-height: 100% ;
 }
@@ -157,7 +163,7 @@ a{
 #footer {
 	background-color:lightcoral;
 	position: relative;
-	height: 300;
+	height: 200;
 	margin: auto;
 	color:white;
 	clear:both;
@@ -165,7 +171,7 @@ a{
 
 .s-m{
 	position: absolute;
-	top: 50%;
+	top: 80%;
 	left: 50%;
 	transform: translate(-50%, -50%);
 }
@@ -181,7 +187,7 @@ a{
 	justify-content: center;
 	align-items: center;
 	transition: 0.4s;
-	font-size: 22px;	
+	font-size: 20px;	
 }
 
 .s-m a:hover{
@@ -201,6 +207,7 @@ a{
 	width: 100%;
 	height: auto;
 	margin: auto;
+	padding: 30px;
 }
 
 .footer-menu-one ul{
@@ -215,8 +222,9 @@ a{
 
 .footer-menu-one ul li a{
 	font-family: arial;
-	font-size: 15px;
+	font-size: 20px;
 	font-weight: 600;
 	color: white;
 	text-transform: uppercase;
+
 }
