@@ -163,34 +163,38 @@ a{
 	clear:both;
 }
 
-.footer-social-icons{
-	width: 100%;
-	height: auto;
-	margin: auto;
-}
-.footer-social-icons ul{
-	margin: 0px;
-	padding:0px;
-	text-align: center;
+.s-m{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
 }
 
-.footer-social-icons ul li{
-	display: inline-block;
-	width: 50px;
-	height: 50px;
-	margin: 0px 10px;
-	border-radius: 100%;
-	background: cyan;
+.s-m a{
+	display: inline-flex;
+	width: 40px;
+	height: 40px;
+	background: black;
+	color: turquoise;
+	margin:0 6px;
+	border-radius: center;
+	justify-content: center;
+	align-items: center;
+	transition: 0.4s;
+	font-size: 22px;	
 }
 
-.footer-social-icons ul li a{
-	color: black;
-	font-size: 25px;
-	display: block;
+.s-m a:hover{
+	background: #e67e22 ;
 }
 
-.footer-social-icons ul li a i{
-	line-height: 50px;
+.s-m a i{
+	transition: 0.4s all;
+}
+
+.s-m a:hover > i{
+	transform: scale(1.6) rotate(25deg);
+
 }
 
 .footer-menu-one{
