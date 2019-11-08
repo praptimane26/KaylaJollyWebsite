@@ -68,7 +68,7 @@ h2:after{
     height: 4px;
     width: 50px;
     border-radius: 2px;
-    background-color: #2ecc71;
+    background-color: turquoise;
 
 }
 
@@ -100,7 +100,7 @@ h2:after{
     width: 100%;
     padding: 0.5rem 1rem;
     font-size: 1.1rem;
-    background-color: #2ecc71;
+    background-color: turquoise;
     cursor: pointer;
     outline: none;
     border: none;
@@ -110,7 +110,7 @@ h2:after{
 }
 
 .btn:hover{
-    background-color: #27ae60;
+    background-color: salmon;
 }
 
 @media screen and (max-width:880px){
@@ -122,3 +122,133 @@ h2:after{
         height: 200px;
     }
 }
+
+body{
+    margin: 0;
+    padding: 0;
+    background: white;
+    font-family: arial,serif;
+}
+
+.nav {
+	background-color: white;
+	color:lightcoral;
+	list-style: none;
+	text-align: right;
+	padding: 50px 0 0 0;
+}
+
+.nav > li {
+	display: inline-block;
+	padding: 0 25px 0 25px;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+.nav > li > a {
+	text-decoration: none;
+	color:lightcoral;
+}
+
+.nav > li > a :hover {
+	color: turquoise;
+}
+
+.logo{
+	color: lightcoral;
+	float: left;
+	padding-left: 25px;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.logo > a {
+	text-decoration: none;
+    color:lightcoral;
+    
+}
+
+
+#footer-container{
+	min-height: 100%;
+}
+
+#main {
+	overflow: auto;
+	padding: bottom 100px; 
+	
+
+}
+a{
+	text-decoration: none;
+	outline: none;
+}
+#footer {
+	background-color:lightcoral;
+	position: relative;
+	height: 200px;
+	margin: auto;
+	color:white;
+	clear:both;
+}
+
+.s-m{
+	position: absolute;
+	top: 80%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.s-m a{
+	display: inline-flex;
+	width: 40px;
+	height: 40px;
+	background: black;
+	color: turquoise;
+	margin:0 6px;
+	border-radius: center;
+	justify-content: center;
+	align-items: center;
+	transition: 0.4s;
+	font-size: 20px;	
+}
+
+.s-m a:hover{
+	background: #e67e22 ;
+}
+
+.s-m a i{
+	transition: 0.4s all;
+}
+
+.s-m a:hover > i{
+	transform: scale(1.6) rotate(25deg);
+
+}
+
+.footer-menu-one{
+	width: 100%;
+	height: auto;
+	margin: auto;
+	padding: 30px;
+}
+
+.footer-menu-one ul{
+	margin: 0px;
+	padding:0px;
+	text-align: center;
+}
+.footer-menu-one ul li{
+	display: inline-block;
+	margin: 0px 20px;
+}
+
+.footer-menu-one ul li a{
+	font-family: arial;
+	font-size: 20px;
+	font-weight: 600;
+	color: white;
+	text-transform: uppercase;
+
+}
+
