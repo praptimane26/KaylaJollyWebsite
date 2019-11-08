@@ -77,15 +77,17 @@ width: 100%;
 
 }
 .about-text{
-    padding-top: 5%;
+    padding-top: 15%;
     padding-bottom: 15%;
 }
 .about-text h2{
     color: salmon;
-    font-family: lobster;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-style: italic;
     font-size: 60px;
 	float: left;
 	padding-bottom: 8%;
+	font-weight: bold;
 	
 }
 
@@ -94,6 +96,7 @@ width: 100%;
     color: turquoise;
 	float: left;
 	padding-bottom: 32%;
+	font-family: 'Serif';
 }
 
 
