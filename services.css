@@ -1,7 +1,9 @@
-body {
-	margin: 0;
-	padding: 0;
-	font-family: Arial, serif;
+
+body{
+    margin: 0;
+    padding: 0;
+    background: white;
+    font-family: arial,serif;
 }
 
 .nav {
@@ -9,14 +11,19 @@ body {
 	color:lightcoral;
 	list-style: none;
 	text-align: right;
-	padding: 20px 0 0 0;
+    padding: 50px 0 0 0;
+    
+
+    
 }
 
 .nav > li {
 	display: inline-block;
 	padding: 0 25px 0 25px;
-	font-size: 14px;
-	font-weight: bold;
+	font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 30px;
+
 }
 
 .nav > li > a {
@@ -32,115 +39,65 @@ body {
 	color: lightcoral;
 	float: left;
 	padding-left: 25px;
-	font-size: 21px;
+	font-size: 20px;
 	font-weight: bold;
 }
 
 .logo > a {
 	text-decoration: none;
-	color:lightcoral;
-}
-
-
-.banner-container{
-    width: 100%;
-    height: 50%;
-    display: block;
+    color:lightcoral;
     
 }
 
-.banner-container > .banner-container {
+
+body
+{
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(images/services.jpg);
+    background-size: cover;
+    background-position: center;
+    color: #fff !important;
     width: 100%;
-    display: block;
-}
-
-.banner-container img {
-    width: auto;
-    height: 800px;
-
-}
-
-.button-left {
-    margin-left: 20px;
-    margin-top: 250;
+    height: 100vh;
     
 }
 
-.button-right{
-margin-left: 1470px;
 
+
+.services{
+    margin: 90px auto;
+    text-align: center;
+}
+
+h1{
+    font-family: sans-serif;
+    letter-spacing: 1px;
+}
+
+h1:after{
+    content: '';
+    background: white;
+    display: block;
+    width: 150px;
+    height: 3px;
+    margin: 10px auto;
+}
+
+.icon{
+font-size: 40px; 
+margin: 20px auto;
+padding: 20px;
+height: 80px;
+width: 80px;
+border: 1px solid white; 
+border-radius: 50%;
+margin-bottom: 60px;
 }
 
 
-
-
-
-
-
-
-
-.service1{
-	width: 298px;
-	height: 400px;
-	border: 2px solid turquoise;
-    margin: 20px 10px;
-	padding: 0 5px;
-	float: left;
-	box-sizing: border-box;
-	margin-bottom: 100px;
-	
+.col-md-3:hover{
+    box-shadow: 5px 7px 9px -3px rgba(255, 255, 255, 0.5);
+    cursor: pointer;
 }
-
-
-
-.service1 > p {
-	font-size: 14px;
-	color: lightcoral;
-	max-width:250px;
-	text-align:center;
-	float:left;
-	padding-left: 15;
-	
-}
-
-.services {
-	width: 1333px;
-	margin: 0 auto;
-}
-
-h1{font-size: 16px;
-font-weight: bold;
-background-color:turquoise;
-color: lightcoral;
-padding: 10px 0;
-margin: 0 -6px;
-text-align: center;
-}
-
-
-.image {
-	max-width: 400px;
-	max-height: 250px;
-	margin-top: 15 0 0 0 ;
-	padding-left:40
-
-	
-}
-
-.heading{
-	text-align: center;
-	font-size: 40px;
-	color: lightcoral;
-	margin: 600px 0 50px 0;
-}
-
-.image:hover{
-	opacity: 0.2;
-	max-width: 200px;
-	margin-top: 15px;
-	color: turquoise;
-}
-
 
 
 
@@ -230,3 +187,11 @@ a{
 	text-transform: uppercase;
 
 }
+
+
+
+
+
+
+
+
