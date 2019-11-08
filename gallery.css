@@ -157,6 +157,7 @@ a{
 	height: auto;
 	margin: auto;
 	padding: 30px;
+	position: absolute;
 }
 
 .footer-menu-one ul{
