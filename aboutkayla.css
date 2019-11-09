@@ -65,7 +65,7 @@ body{
 .about-img:before{
     position: absolute;
     content: '';
-    right: -30px;
+    right: 30px;
     top: -30px;
     border: 10px solid rgba(255,255,255,0.5);
     width: 100%;
@@ -94,7 +94,7 @@ width: 100%;
 
 .about-text p{
     font-size: 25px;
-    color: turquoise;
+    color:turquoise;
 	float: left;
 	padding-bottom: 32%;
 	font-family: 'Serif';
