@@ -5,6 +5,7 @@ body{
     font-family: arial,serif;
 }
 
+/*Navigation*/
 .nav {
 	background-color: white;
 	color:lightcoral;
@@ -30,6 +31,7 @@ body{
 	color: turquoise;
 }
 
+/*Logo*/
 .logo{
 	color: lightcoral;
 	float: left;
@@ -44,7 +46,7 @@ body{
     
 }
 
-
+/*about kayla*/
 
 .aboutarea{
     padding-top: 10%; 
@@ -101,7 +103,7 @@ width: 100%;
 }
 
 
-
+/*footer starts here*/
 
 #footer-container{
 	min-height: 100%;

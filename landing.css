@@ -3,7 +3,7 @@ body {
 	padding: 0;
 	font-family: Arial, serif;
 }
-
+/*navigation bar*/
 .nav {
 	background-color: white;
 	color:lightcoral;
@@ -27,7 +27,7 @@ body {
 .nav > li > a :hover {
 	color: turquoise;
 }
-
+/*logo for the website*/
 .logo{
 	color: lightcoral;
 	float: left;
@@ -41,6 +41,7 @@ body {
 	color:lightcoral;
 }
 
+/*banner for the landing page*/
 
 .banner-container{
     width: 100%;
@@ -71,7 +72,7 @@ margin-left: 1470px;
 
 }
 
-
+/*services part of the page*/
 
 .service1{
 	width: 298px;
@@ -139,7 +140,7 @@ text-align: center;
 
 
 
-
+/*footer starts here*/
 
 
 
@@ -225,3 +226,4 @@ a{
 	text-transform: uppercase;
 
 }
+/*footer ends here*/

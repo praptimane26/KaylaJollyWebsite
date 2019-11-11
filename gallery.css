@@ -5,6 +5,8 @@ body{
     font-family: arial,serif;
 }
 
+/*navigation bar*/
+
 .nav {
 	background-color: white;
 	color:lightcoral;
@@ -30,6 +32,7 @@ body{
 	color: turquoise;
 }
 
+/*logo for the website*/
 .logo{
 	color: lightcoral;
 	float: left;
@@ -53,6 +56,8 @@ body{
 	margin-right: auto;
 
 }
+
+/*boxes for the gallery*/
 
 .box{
     float: left;
@@ -97,6 +102,8 @@ body{
         padding-bottom: 25%;
     }
 }
+
+/*footer starts here*/
 
 #footer-container{
 	min-height: 100% ;
@@ -181,3 +188,5 @@ a{
 	text-transform: uppercase;
 
 }
+
+/*footer ends here*/
